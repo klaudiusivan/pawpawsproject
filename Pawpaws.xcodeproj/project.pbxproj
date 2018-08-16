@@ -14,6 +14,7 @@
 		F8E2343721256535009BF4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E2343621256535009BF4AA /* Assets.xcassets */; };
 		F8E2343A21256535009BF4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E2343821256535009BF4AA /* LaunchScreen.storyboard */; };
 		F8E2344921258793009BF4AA /* QuoteBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E2344821258793009BF4AA /* QuoteBank.swift */; };
+		F8E2344B21259087009BF4AA /* KeepCalm-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8E2344A21259087009BF4AA /* KeepCalm-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +26,8 @@
 		F8E2343621256535009BF4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E2343921256535009BF4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E2343B21256535009BF4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8E2344321257A7F009BF4AA /* KeepCalm-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KeepCalm-Medium.ttf"; sourceTree = "<group>"; };
 		F8E2344821258793009BF4AA /* QuoteBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBank.swift; sourceTree = "<group>"; };
+		F8E2344A21259087009BF4AA /* KeepCalm-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KeepCalm-Medium.ttf"; path = "../../../../../../../../Users/klaudiusivan/Downloads/keep_calm 2/KeepCalm-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +73,7 @@
 		F8E2344121257906009BF4AA /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				F8E2344321257A7F009BF4AA /* KeepCalm-Medium.ttf */,
+				F8E2344A21259087009BF4AA /* KeepCalm-Medium.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -173,6 +174,7 @@
 				F8E2343A21256535009BF4AA /* LaunchScreen.storyboard in Resources */,
 				F8E2343721256535009BF4AA /* Assets.xcassets in Resources */,
 				F8E2343221256532009BF4AA /* Main.storyboard in Resources */,
+				F8E2344B21259087009BF4AA /* KeepCalm-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
