@@ -13,6 +13,7 @@
 		F8E2343521256532009BF4AA /* Pawpaws.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8E2343321256532009BF4AA /* Pawpaws.xcdatamodeld */; };
 		F8E2343721256535009BF4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E2343621256535009BF4AA /* Assets.xcassets */; };
 		F8E2343A21256535009BF4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E2343821256535009BF4AA /* LaunchScreen.storyboard */; };
+		F8E2344921258793009BF4AA /* QuoteBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E2344821258793009BF4AA /* QuoteBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F8E2343921256535009BF4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E2343B21256535009BF4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E2344321257A7F009BF4AA /* KeepCalm-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KeepCalm-Medium.ttf"; sourceTree = "<group>"; };
+		F8E2344821258793009BF4AA /* QuoteBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,13 +59,10 @@
 		F8E2342B21256532009BF4AA /* Pawpaws */ = {
 			isa = PBXGroup;
 			children = (
-				F8E2344421257FEA009BF4AA /* New Group */,
-				F8E2344121257906009BF4AA /* Font */,
-				F8E2342C21256532009BF4AA /* AppDelegate.swift */,
-				F8E2342E21256532009BF4AA /* ViewController.swift */,
-				F8E2343021256532009BF4AA /* Main.storyboard */,
-				F8E2343621256535009BF4AA /* Assets.xcassets */,
-				F8E2343821256535009BF4AA /* LaunchScreen.storyboard */,
+				F8E2344721258727009BF4AA /* Controller */,
+				F8E2344621258721009BF4AA /* View */,
+				F8E2344521258718009BF4AA /* Model */,
+				F8E2344421257FEA009BF4AA /* Support */,
 				F8E2343B21256535009BF4AA /* Info.plist */,
 				F8E2343321256532009BF4AA /* Pawpaws.xcdatamodeld */,
 			);
@@ -78,11 +77,39 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		F8E2344421257FEA009BF4AA /* New Group */ = {
+		F8E2344421257FEA009BF4AA /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				F8E2343621256535009BF4AA /* Assets.xcassets */,
+				F8E2342C21256532009BF4AA /* AppDelegate.swift */,
+				F8E2344121257906009BF4AA /* Font */,
 			);
-			path = "New Group";
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F8E2344521258718009BF4AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8E2344821258793009BF4AA /* QuoteBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8E2344621258721009BF4AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8E2343021256532009BF4AA /* Main.storyboard */,
+				F8E2343821256535009BF4AA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8E2344721258727009BF4AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8E2342E21256532009BF4AA /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E2344921258793009BF4AA /* QuoteBank.swift in Sources */,
 				F8E2343521256532009BF4AA /* Pawpaws.xcdatamodeld in Sources */,
 				F8E2342F21256532009BF4AA /* ViewController.swift in Sources */,
 				F8E2342D21256532009BF4AA /* AppDelegate.swift in Sources */,
