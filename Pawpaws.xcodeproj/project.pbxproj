@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A863CB1E212590090088EDB4 /* GUIDEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863CB1D212590090088EDB4 /* GUIDEViewController.swift */; };
 		F8E2342D21256532009BF4AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E2342C21256532009BF4AA /* AppDelegate.swift */; };
 		F8E2342F21256532009BF4AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E2342E21256532009BF4AA /* ViewController.swift */; };
 		F8E2343221256532009BF4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E2343021256532009BF4AA /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A863CB1D212590090088EDB4 /* GUIDEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUIDEViewController.swift; sourceTree = "<group>"; };
 		F8E2342921256532009BF4AA /* Pawpaws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawpaws.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E2342C21256532009BF4AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8E2342E21256532009BF4AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				F8E2342C21256532009BF4AA /* AppDelegate.swift */,
 				F8E2342E21256532009BF4AA /* ViewController.swift */,
 				F8E2343021256532009BF4AA /* Main.storyboard */,
+				A863CB1D212590090088EDB4 /* GUIDEViewController.swift */,
 				F8E2343621256535009BF4AA /* Assets.xcassets */,
 				F8E2343821256535009BF4AA /* LaunchScreen.storyboard */,
 				F8E2343B21256535009BF4AA /* Info.plist */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E2343521256532009BF4AA /* Pawpaws.xcdatamodeld in Sources */,
+				A863CB1E212590090088EDB4 /* GUIDEViewController.swift in Sources */,
 				F8E2342F21256532009BF4AA /* ViewController.swift in Sources */,
 				F8E2342D21256532009BF4AA /* AppDelegate.swift in Sources */,
 			);
